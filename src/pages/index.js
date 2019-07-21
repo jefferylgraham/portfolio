@@ -27,11 +27,7 @@ const IndexPage = () => (
             <h2>Who I am</h2>
           </header>
           <p>
-            Aliquam ante ac id. Adipiscing interdum lorem praesent fusce
-            pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed
-            adipiscing eu amet interdum lorem blandit vis ac commodo aliquet
-            integer vulputate phasellus lorem ipsum dolor lorem magna consequat
-            sed etiam adipiscing interdum.
+            I am a web developer who specializes in JavaScript. My goal is to help you have an effective online presence leading to more customers for your business. I build websites to increase awareness around you and your brand, and help you generate more leads and improve conversion rates. Bottom line: I build websites that turn visitors into customers. In addition to building websites, I also build scalable web applications that are high performing, secure and compatible with all major browsers, even mobile. 
           </p>
         </div>
         <Scroll type="id" element="two">
@@ -52,25 +48,24 @@ const IndexPage = () => (
             <h2>Stuff I do</h2>
           </header>
           <p>
-            Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum
-            lorem blandit vis ac commodo aliquet vulputate.
+            These are few of the things I enjoy doing:
           </p>
           <ul className="icons-grid">
             <li>
-              <span className="icon major fa-camera-retro" />
-              <h3>Photography</h3>
+              <span className="icon major fa-code" />
+              <h3>Web Development</h3>
             </li>
             <li>
               <span className="icon major fa-pencil" />
               <h3>Blogging</h3>
             </li>
             <li>
-              <span className="icon major fa-code" />
-              <h3>Web Development</h3>
+            <span className="icon major fa-graduation-cap" />
+              <h3>Teaching</h3>
             </li>
             <li>
-              <span className="icon major fa-coffee" />
-              <h3>Sipping Coffee</h3>
+              <span className="icon major fa-globe" />
+              <h3>Travelling</h3>
             </li>
           </ul>
         </div>
@@ -92,11 +87,7 @@ const IndexPage = () => (
             <h2>One more thing</h2>
           </header>
           <p>
-            Aliquam ante ac id. Adipiscing interdum lorem praesent fusce
-            pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed
-            adipiscing eu amet interdum lorem blandit vis ac commodo aliquet
-            integer vulputate phasellus lorem ipsum dolor lorem magna consequat
-            sed etiam adipiscing interdum.
+            Having a website is one thing. Having an effective online presence is another. With that in mind, I can also help you with SEO and social media management. Having a practical SEO and social media management strategy is key to increasing your visibility online and turning visitors into customers and customers into repeat buyers. Contact me to see how I can help with your online marketing strategy.
           </p>
         </div>
         <Scroll type="id" element="footer">
@@ -141,7 +132,7 @@ const IndexPage = () => (
             </div>
           </div>
         </form>
-        <Link to="/Elements"> Check out Elements page</Link>
+        <Link to="/Elements"></Link>
       </div>
       <Footer />
     </section>
