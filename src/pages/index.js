@@ -27,7 +27,7 @@ const IndexPage = () => (
             <h2>Who I am</h2>
           </header>
           <p>
-            I am a web developer who specializes in JavaScript. My goal is to help you have an effective online presence leading to more customers for your business. I build websites to increase awareness around you and your brand, and help you generate more leads and improve conversion rates. Bottom line: I build websites that turn visitors into customers. In addition to building websites, I also build scalable web applications that are high performing, secure and compatible with all major browsers, even mobile.
+            I am a web developer who specializes in WordPress & JavaScript. My goal is to help you have an effective online presence leading to more customers for your business. I build websites to increase awareness around you and your brand, and help you generate more leads and improve conversion rates. Bottom line: I build websites that turn visitors into customers. In addition to building websites, I also build scalable web applications that are high performing, secure and compatible with all major browsers, even mobile.
           </p>
         </div>
         <Scroll type="id" element="two">
