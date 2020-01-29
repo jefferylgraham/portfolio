@@ -27,7 +27,7 @@ const IndexPage = () => (
             <h2>Who I am</h2>
           </header>
           <p>
-            I am a web developer who specializes in JavaScript. My goal is to help you have an effective online presence leading to more customers for your business. I build websites to increase awareness around you and your brand, and help you generate more leads and improve conversion rates. Bottom line: I build websites that turn visitors into customers. In addition to building websites, I also build scalable web applications that are high performing, secure and compatible with all major browsers, even mobile. 
+            I am a web developer who specializes in JavaScript. My goal is to help you have an effective online presence leading to more customers for your business. I build websites to increase awareness around you and your brand, and help you generate more leads and improve conversion rates. Bottom line: I build websites that turn visitors into customers. In addition to building websites, I also build scalable web applications that are high performing, secure and compatible with all major browsers, even mobile.
           </p>
         </div>
         <Scroll type="id" element="two">
@@ -60,7 +60,7 @@ const IndexPage = () => (
               <h3>Blogging</h3>
             </li>
             <li>
-            <span className="icon major fa-graduation-cap" />
+              <span className="icon major fa-graduation-cap" />
               <h3>Teaching</h3>
             </li>
             <li>
@@ -103,7 +103,7 @@ const IndexPage = () => (
         <header className="major">
           <h2>Get in touch</h2>
         </header>
-        <form method="post" action="#">
+        <form name="contact" method="POST" data-netlify="true">
           <div className="row gtr-uniform">
             <div className="col-6 col-12-xsmall">
               <input type="text" name="name" id="name" placeholder="Name" />
