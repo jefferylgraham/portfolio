@@ -103,7 +103,7 @@ const IndexPage = () => (
         <header className="major">
           <h2>Get in touch</h2>
         </header>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
           <div className="row gtr-uniform">
             <div className="col-6 col-12-xsmall">
               <input type="text" name="name" id="name" placeholder="Name" />
@@ -131,6 +131,7 @@ const IndexPage = () => (
               </ul>
             </div>
           </div>
+          <input type="hidden" name="form-name" value="contact" />
         </form>
         <Link to="/Elements"></Link>
       </div>
